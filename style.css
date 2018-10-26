@@ -1,0 +1,27 @@
+.lopta {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-duration: 30s;
+    animation-name: pomeranje;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+}
+
+@keyframes pomeranje {
+    0% {
+        left:-150px;
+        top:50px;
+    }
+
+    50% {
+        left:1400px;
+        width: 200px;
+        height: 200px;
+    }
+
+    100% {
+        left:-150px;
+        top:50px;
+    }
+  }
